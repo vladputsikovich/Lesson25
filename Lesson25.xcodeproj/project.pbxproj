@@ -13,6 +13,8 @@
 		EDEB3E9127A16E17009DCBF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEB3E8F27A16E17009DCBF4 /* Main.storyboard */; };
 		EDEB3E9327A16E19009DCBF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEB3E9227A16E19009DCBF4 /* Assets.xcassets */; };
 		EDEB3E9627A16E19009DCBF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEB3E9427A16E19009DCBF4 /* LaunchScreen.storyboard */; };
+		EDEB3E9E27A1856D009DCBF4 /* SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEB3E9D27A1856D009DCBF4 /* SiteController.swift */; };
+		EDEB3EA027A19CB6009DCBF4 /* ticket.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDEB3E9F27A19CB6009DCBF4 /* ticket.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EDEB3E9227A16E19009DCBF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDEB3E9527A16E19009DCBF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDEB3E9727A16E19009DCBF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEB3E9D27A1856D009DCBF4 /* SiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
+		EDEB3E9F27A19CB6009DCBF4 /* ticket.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = ticket.pdf; path = ../../../Downloads/ticket.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				EDEB3E8927A16E17009DCBF4 /* AppDelegate.swift */,
 				EDEB3E8B27A16E17009DCBF4 /* SceneDelegate.swift */,
 				EDEB3E8D27A16E17009DCBF4 /* ViewController.swift */,
+				EDEB3E9D27A1856D009DCBF4 /* SiteController.swift */,
+				EDEB3E9F27A19CB6009DCBF4 /* ticket.pdf */,
 				EDEB3E8F27A16E17009DCBF4 /* Main.storyboard */,
 				EDEB3E9227A16E19009DCBF4 /* Assets.xcassets */,
 				EDEB3E9427A16E19009DCBF4 /* LaunchScreen.storyboard */,
@@ -127,6 +133,7 @@
 			files = (
 				EDEB3E9627A16E19009DCBF4 /* LaunchScreen.storyboard in Resources */,
 				EDEB3E9327A16E19009DCBF4 /* Assets.xcassets in Resources */,
+				EDEB3EA027A19CB6009DCBF4 /* ticket.pdf in Resources */,
 				EDEB3E9127A16E17009DCBF4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDEB3E9E27A1856D009DCBF4 /* SiteController.swift in Sources */,
 				EDEB3E8E27A16E17009DCBF4 /* ViewController.swift in Sources */,
 				EDEB3E8A27A16E17009DCBF4 /* AppDelegate.swift in Sources */,
 				EDEB3E8C27A16E17009DCBF4 /* SceneDelegate.swift in Sources */,
